@@ -1,0 +1,130 @@
+# Setting up a Google Cloud Network Load Balancer
+
+Network load balancers operate at **layer 4** of the OSI model. It handles traffic based on IP addresses and port information and does not inspect the contents of the traffic.
+
+Here is how we can set up an NLB using the Google Cloud console:
+
+---
+
+### A. Initializing Instances
+
+1.  **Set up region and zones:**
+    ```bash
+    gcloud config set compute/region Region
+    gcloud config set compute/zone Zone
+    ```
+
+2.  **Set up multiple instances for the simulation:**
+    ```bash
+    gcloud compute instances create www1 \
+      --zone=Zone \
+      --tags=network-lb-tag \
+      --machine-type=e2-small \
+      --image-family=debian-11 \
+      --image-project=debian-cloud \
+      --metadata=startup-script='#!/bin/bash
+        apt-get update
+        apt-get install apache2 -y
+        service apache2 restart
+        echo "<h3>Web Server: www1</h3>" | tee /var/www/html/index.html'
+
+    gcloud compute instances create www2 \
+      --zone=Zone \
+      --tags=network-lb-tag \
+      --machine-type=e2-small \
+      --image-family=debian-11 \
+      --image-project=debian-cloud \
+      --metadata=startup-script='#!/bin/bash
+        apt-get update
+        apt-get install apache2 -y
+        service apache2 restart
+        echo "<h3>Web Server: www2</h3>" | tee /var/www/html/index.html'
+
+    gcloud compute instances create www3 \
+      --zone=Zone  \
+      --tags=network-lb-tag \
+      --machine-type=e2-small \
+      --image-family=debian-11 \
+      --image-project=debian-cloud \
+      --metadata=startup-script='#!/bin/bash
+        apt-get update
+        apt-get install apache2 -y
+        service apache2 restart
+        echo "<h3>Web Server: www3</h3>" | tee /var/www/html/index.html'
+    ```
+
+3.  **Create firewall rules to allow traffic for the network:**
+    ```bash
+    gcloud compute firewall-rules create www-firewall-network-lb \
+      --target-tags network-lb-tag --allow tcp:80
+    ```
+
+4.  **Get the IP addresses and verify that they are running:**
+    ```bash
+    gcloud compute instances list
+    curl http://<IP ADDRESS>
+    ```
+
+---
+
+### B. Configuring the Load Balancing Services
+
+1.  **Create a static external IP address for the load balancing service:**
+    ```bash
+    gcloud compute addresses create network-lb-ip-1 \
+      --region Region
+    ```
+
+2.  **Add a legacy HTTP health check** (required by the target pool command):
+    ```bash
+    gcloud compute http-health-checks create basic-check
+    ```
+
+---
+
+### C. Create the Target Pool and Forwarding Rule
+
+1.  **Create the target pool and apply the health check:**
+    ```bash
+    gcloud compute target-pools create www-pool \
+      --region Region --http-health-check basic-check
+    ```
+
+2.  **Add the instances to the target pool:**
+    ```bash
+    gcloud compute target-pools add-instances www-pool \
+      --instances www1,www2,www3
+    ```
+
+3.  **Add a forwarding rule** to route traffic to the backend service:
+    ```bash
+    gcloud compute forwarding-rules create www-rule \
+      --region  Region \
+      --ports 80 \
+      --address network-lb-ip-1 \
+      --target-pool www-pool
+    ```
+
+---
+
+### D. Simulation
+
+1.  **Get the external IP address of the forwarding rule:**
+    ```bash
+    gcloud compute forwarding-rules describe www-rule --region Region
+    ```
+
+2.  **Save the external IP to a variable:**
+    ```bash
+    IPADDRESS=$(gcloud compute forwarding-rules describe www-rule --region Region --format="json" | jq -r .IPAddress)
+    ```
+
+3.  **Display the IP address:**
+    ```bash
+    echo $IPADDRESS
+    ```
+
+4.  **Send continuous requests to see the traffic being balanced:**
+    ```bash
+    while true; do curl -m1 $IPADDRESS; done
+    ```

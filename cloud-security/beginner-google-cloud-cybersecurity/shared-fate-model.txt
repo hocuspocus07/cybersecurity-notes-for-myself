@@ -1,0 +1,1 @@
+The shared fate model emphasizes the CSP’s involvement in the customer’s entire security journey and offers resources to securely manage their environment at each stage. The shared fate model was created to respond to gaps in the shared responsibility model, with the CSP offering more extensive guidance in how to secure a customer’s cloud-based resources.

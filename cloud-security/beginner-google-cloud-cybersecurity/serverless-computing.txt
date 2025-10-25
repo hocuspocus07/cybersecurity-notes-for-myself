@@ -1,0 +1,19 @@
+Serverless computing is a cloud computing model where servers are abstracted from
+ development. Despite the name serverless, this computing model does involve servers. The
+ servers and resources are completely managed by the cloud service provider (CSP). This
+ alows developers to focus on creating and deploying code without worrying about backend
+ infrastructure.
+
+Backend as a Service(Baas):
+ BaaS is a form of serverless computing where the CSP manages al aspects of the backend
+ infrastructure. This includes servers, containers, and virtual machines. Developers use BaaS to
+ speed the creation of web applications. With BaaS, developers can focus on writing the front
+ end code, which is the code that builds the user interface. Organizations have access to other
+ services, like databases, le storage, and authentication services that can be native or third
+ party to the platform
+
+Function as a Service(Faas):
+ FaaS is a form of serverless computing that runs functions. A function is a smal piece of code.
+ Functions are ephemeral, meaning they only exist for a short period of time. Developers can
+ use their choice of programming language to create functions, which makes adopting
+ serverless computing more convenient

@@ -1,0 +1,15 @@
+->HYPERVISER:
+Virtualization uses hypervisors to manage the relationship between physical and virtual resources.
+A hypervisor is the abstraction layer that sits between the physical computer and the VM.
+Abstraction is what separates hardware from software.
+there are two types of hypervisers:
+1. type 1, or bare metal:
+Type one hypervisors interact with the operating system’s components directly.
+It replaces the entire operating system of the underlying computer.
+2. type 2, or hosted:
+use the computer’s existing operating system and runs as an application over the operating system.
+
+->ADVANTAGES:
+1. portability
+2. scalability
+3. testing environment

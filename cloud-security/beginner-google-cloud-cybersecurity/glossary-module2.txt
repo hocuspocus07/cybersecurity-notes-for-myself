@@ -1,0 +1,32 @@
+ Allow policy: A type of access a principal has, and sets conditions on this access
+ Application programming interface (API): A library function or system access point with
+ wel-de nedsyntaxandcodethatcommunicateswithother applications and third-parties
+ Defense in depth: Alayered approach to vulnerability management that reduces risk
+ Denypolicy: A constraint that sets rules to prevent principals from carrying out certain
+ actions
+ Detective control: A measure used to identify suspicious activity if it occurs
+ Identity control: A measure that helps authenticate a user before they access resources, like
+ networks or storage
+ Li andshi :Amigrationmodelwhereworkloadsaremovedtothecloudwithli letono
+ modi cations
+ Landing zone: Amodular andscalable conguration that enables organizations to adopt
+ Google Cloud for their business needs
+ Networkcontrol: A measure that helps protect access through network path
+ Principals: Represent either end users, or applications
+ Protective control: A measure that protects access to resources and shields against malicious
+ attacks
+ Recovery control: A measure that restores access and functionality in the event of failures
+ Responsive control: An application or tool that uses automation to respond to security events
+ Roles: A colection of permissions that can be applied to principals
+ Router: A network device that connects multiple networks together
+ Service level agreement (SLA): Quantifies the availability of services
+Shared fate model: Anapproach that emphasizes the CSP’s involvement in the customer’s
+ entire security journey, and o ers resources to securely manage their environment at each
+ stage
+ Shared responsibility model: The implicit and explicit agreement between the customer and
+ the cloud service provider (CSP) regarding the shared accountability for security controls
+ Switch: A device that makes connections between speci c devices on a network by sending
+ and receiving data
+ Virtual private cloud (VPC): A private cloud hosted within a public cloud, enabling
+ organizations to use the public cloud’s resources, while being completely isolated from other
+ cloud users

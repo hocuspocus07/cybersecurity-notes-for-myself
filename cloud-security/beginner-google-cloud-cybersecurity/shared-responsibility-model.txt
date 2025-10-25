@@ -1,0 +1,46 @@
+The shared responsibility model is the implicit and explicit agreement between the customer and the cloud service provider, or CSP, regarding the shared accountability for security controls.
+The customer is responsible for configuring their services to meet their specific security and compliance requirements.
+The customer is also responsible for securing their data.
+Organizations have to consider the security requirements of the people using their apps and resources.
+In these cases, the focus is to secure data in the cloud.
+
+->CHALLENGES:
+1. Users often get confused about where the provider’s responsibility ends and theirs begins
+2. Customer misconfigurations can lead to security breaches despite provider safeguards.
+3. Maintaining compliance can be tricky since both provider and customer have different responsibilities.
+
+->CLOUD MIGRATION:
+Questions to consider:
+The folowing questions are relevant when an organization considers migrating resources to
+ the cloud.
+
+1. Whichsecurity controls are your responsibility?
+ First, it’s important to determine which security controls are necessary for your organization.
+ To start, put together a list of your assets, and determine the types of controls needed to
+ secure them.
+
+2. Whichsecurity controls are available as part of the cloud o ering?
+ Onceyouknowwhichcontrols your organization needs, your next step is to review the
+ controls that the CSP o ers to determine which ones align with your security requirements.
+ CSPsshould beable to provide you with detailed documentation of their security services
+ along with the controls they own or share with their customers.
+
+3.  Whichdefault security controls are inherited?
+ Whenmigrating to the cloud, it’s also important to consider inherited security controls. For
+ example, the CSP might o erencryption and infrastructure-level controls by default. This
+ arrangement means your organization would automaticaly receive these controls, which
+ would help strengthen your security posture from the start.
+
+4. Whatareyourorganization’s compliance obligations?
+ Animportant factor for sharing responsibility with a CSP involves compliance obligations. If
+ your organization must comply with any industry or government regulations, those
+ requirements wi l play a signi cant role in moving your workloads to the cloud. Your
+ organization wi l need to closely examine where the CSP wil run your resources to verify
+ compliance.
+
+5. Whatarethesecurity requirements for your customers and contractors?
+ Security requirements are not just relevant for organizational personnel; entering an
+ agreement with CSPs involves considering al parties who engage with your cloud resources.
+ For example, the users interacting with your services and the contractors your organization
+ uses are al a ectedbyamigration. You’l have to consider how access privileges wil change
+ for contractors, and how privacy disclosures may change for users

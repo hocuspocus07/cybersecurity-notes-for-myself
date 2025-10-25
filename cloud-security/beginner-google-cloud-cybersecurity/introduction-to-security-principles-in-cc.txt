@@ -1,0 +1,72 @@
+IMPORTANT TERMS:
+1. Zone: collective number of data centers in an area.
+2. Region: Multiple zones make one region.
+3. Failure domain: A resource that can fail without impating availability of data.
+4. Resiliency: Ability to prepare for,respond to, and recover from disruptions.
+5. Redundancy: Practice of having multiple copies of data in different locations to avoid a single point of failure.
+6. Latency: The time it takes for data to travel from one location to another.
+
+-> CLOUD DEPLOYMENT MODEL:
+
+1.Public:
+delivers computing, storage, and network resources through internet, allowing users to share ondemand resources.
+a. multi-tenant environment: 
+environment in which cloud infrastructure and resources are shared among users.
+like owning an office space.
+
+2. Private:
+dedicated to a single user or organisation and are created, managed and owned within on premises data centers. It is a single tenant environment. like owning a business.
+
+3. Hybrid:
+Combines public and private models so organisations can enjoy both cloud services and control features of on premises cloud models. like having a storage unit.
+
+MULTICLOUD:
+Using one or more CSP.
+
+GOOGLE'S TRUSTED INFRASTRUCTURE:
+
+1. Secure low-level infrasturcture:
+it is the physical aspect of the data center's infrastructure, which includes the security of data centers, servers and the software run on those devices. Access is very restricted. 
+
+2. Secure service deployment:
+Google uses zero trust security model. All users, devices and systems must be authenticated and authorised before gaining access to the network. 
+
+3. Secure data storage:
+enforce encryption at rest. encrypts data thats not actively in use, so malicious actors cant view sensitive information. 
+
+4. Secure internet communication:
+Google's infra is isolated from the public internet through the use of private ip address space, this defends against DoS and other cyber related attacks.
+
+5. Operational security:
+using verified code libraries, integrating manual security reviews, safeguarding employee devices and credentials, monitoring for threats.
+
+->BENEFITS:
+1. time to market
+2. scalability
+3. cost savings
+4. collaboration
+5. security (CIA Triad)
+
+->LIMITATIONS:
+1. shift in infrastructural control.
+2. security concerns.
+3. migrating existing systems.
+
+->CLOUD COMPUTING:
+
+Cloud computing refers to the practice of using on-demand computing resources as services hosted over the internet.
+
+->INSTANCE:
+
+In cloud computing, an instance is a server resource that runs workloads in the cloud.
+
+->EPHEMERALITY:
+Ephemerality is the concept that things only exist for a short amount of time. Ephemerality is the concept that things only exist for a short amount of time.
+
+three main categories of cloud computing resources: compute, storage, and networks.
+1. compute:
+compute refers to computation performed by a physical computer in a remote environment.
+2. storage:
+Cloud data storage is a solution that enables organizations to keep, access, and maintain digital data on off-site, cloud-based storage devices.
+3. network:
+networks in the cloud run using software, unlike traditional networks that require physical devices.

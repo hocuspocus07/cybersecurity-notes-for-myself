@@ -1,0 +1,35 @@
+->structured:
+ data organized in a certain format, like rows and columns.
+
+->Unstructured data:
+data that is not organized in any easily identifiable way.
+
+->STORAGE TYPES:
+1.file:
+File storage uses a hierarchy of files in folders.
+It keeps data in one place and organizes it in a simple, easy-to-understand way. File storage is ideal for smaller volumes of data that a few people might need access to, like files on a family computer. Each file starts at the home directory, then users can navigate to what they need by following a logical path.
+File storage is the oldest and most widely used data storage system, but it has some limitations and can only handle so much.
+2. Object:
+Object storage holds unstructured data in something called a bucket.
+A bucket is a virtual container that holds objects. Each bucket is assigned a unique name. These buckets can be public, meaning that anyone can access the objects inside, or private, so only certain people have access.
+3. Blocks:
+data is split into smaller blocks, each stored in different locations to maximize efficiency.
+Each block is given a unique ID, and when users ask to retrieve their data, the smaller blocks are connected together again based on these IDs.
+
+
+-> CLASSES FOR DATA STORAGE:
+1. Standard:
+Used for hot data, this is used for data that is frequently used and retrieval is in milliseconds.
+
+2. Nearline:
+Best for data which is used once a month. Most cost effective, good option for backup of data.
+
+3. Coldline:
+Data accessed once in 90 days or once in a quarter.
+ Coldline storage is very cost effective because the data being stored is at rest
+ for long periods of time.
+
+4. Archival:
+ archival storage is best for archiving or backing up data for disaster recovery purposes.
+ This includes data that is accessed very infrequently, or once a year. Since there’s not as high
+ of a demand for availability, archival storage is also very cost-e ective

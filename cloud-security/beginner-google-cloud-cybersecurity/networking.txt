@@ -1,0 +1,19 @@
+router is a network device that connects multiple networks together.
+A switch is a device that makes connections between specific devices on a network by sending and receiving data.
+
+->SOFTWARE DEFINED NETWORKING:(SDN)
+
+CSPs use SDN for cloud services, where the routers and switches are hosted in data centers. SDN virtualizes these network devices, meaning the networking components are abstracted from the physical devices powering the network.
+
+->API:
+
+An API is a library function or system access point with well-defined syntax and code that communicates with other applications and third parties.
+
+->VPC(VIRTUAL PRIVATE CLOUD):
+A virtual private cloud, or VPC, is a private cloud hosted within a public cloud, enabling organizations to use the public cloud’s resources while being completely isolated from other cloud users.
+VPCs facilitate network segmentation, which is an architectural approach that divides a network into chunks called subnets.
+Segmentation is important for network security because it improves an organization’s ability to closely control and monitor network traffic.
+
+->VPN:
+Virtual private networks, or VPNs, facilitate encrypted connectivity between networks.
+In a traditional environment, employees use a VPN provided from the company’s on-premises infrastructure to connect to remote assets.

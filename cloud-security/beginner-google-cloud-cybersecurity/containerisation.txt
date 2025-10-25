@@ -1,0 +1,6 @@
+->Container:
+software package that holds only the components necessary to execute a particular application.
+Each container has a container image, which is a file with the code and dependencies that the container requires to run the application.
+Like documents in a filing cabinet, the cabinet is the container, the folders in each drawer are container images, and those container images store the documents or information needed to perform a task.
+container registries to upload and download container images.
+Immutability means an object can’t be changed after it’s created and assigned a value.

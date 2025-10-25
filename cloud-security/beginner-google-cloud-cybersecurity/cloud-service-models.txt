@@ -1,0 +1,16 @@
+three types:
+infrastructure as a service, or IaaS; platform as a service, or PaaS; and software as a service, or SaaS.
+1.IaaS:
+
+Example: AWS EC2, Google Compute Engine.
+Cloud provides infrastructure; user manages OS, apps, and data.
+
+2. PaaS:
+
+Example: Google App Engine, Heroku
+Cloud provides infrastructure + platform; user focuses on apps and data.
+
+3. SaaS:
+
+Example: Gmail, Office 365
+English: Cloud provides complete software; user just uses it.

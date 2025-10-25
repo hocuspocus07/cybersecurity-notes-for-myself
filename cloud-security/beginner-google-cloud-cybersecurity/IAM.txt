@@ -1,0 +1,9 @@
+->POLICIES TERMINOLOGIES:
+1. Roles:
+Roles are a collection of permissions that can be applied to principals.
+2. Principles:
+Represents either an end user, or an application
+3. Policies:
+Organizations can set allow or deny policies that attach roles or deny permissions to resources.
+An allow policy is a type of access a principal has, and sets conditions on this access.
+A deny policy is a constraint that sets rules to prevent principals from carrying out certain actions.

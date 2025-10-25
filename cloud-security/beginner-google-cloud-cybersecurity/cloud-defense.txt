@@ -1,0 +1,16 @@
+Types of security controls:
+1. Identity-MFA
+2. Protective-WAF
+3. Network-WAF
+4. Detective-INTRUSION DETECTION SYSTEM
+5. Responsive-AUTOMATIC DETECTION
+6. Recovery-BACKUP SYSTEM
+
+ The NIST CSF framework
+ recommendsusing controls in these categories to help strengthen security in a cloud
+ environment:
+ ● Identify
+ ● Protect
+ ● Detect
+ ● Respond
+ ● Recover

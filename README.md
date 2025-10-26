@@ -1,0 +1,1 @@
+This is my personal repo for the notes I make along the way in my cybersecurity journey. Personal commitment - it stays away from AI slop. This repo has writeup for CTFs, challenges, notes ofr cloudsec, red teaming etc.

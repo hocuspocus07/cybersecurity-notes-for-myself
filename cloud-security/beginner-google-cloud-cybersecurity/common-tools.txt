@@ -1,0 +1,18 @@
+Linux, Terraform, reCAPTCHA, Wireshark, VirusTotal, and Lucidchart.
+1. Linux:
+An open-source operating system (kernel + ecosystem) widely used on servers, desktops, and embedded devices. It provides process management, filesystems, networking, and a shell for command-line control.
+
+2. Terraform:
+An Infrastructure-as-Code (IaC) tool by HashiCorp that defines cloud and on-prem resources in declarative configuration files. It plans changes, provisions resources, and maintains state for reproducible infrastructure.
+
+3. reCaptcha:
+A Google service that helps websites distinguish human users from automated bots through interactive or invisible challenges. It protects forms, logins, and APIs from automated abuse.
+
+4. Wireshark:
+A network protocol analyzer that captures and displays packet-level traffic from network interfaces. Used for troubleshooting, protocol analysis, and forensic inspection of network communications.
+
+5. VirusTotal:
+A free online service that scans files and URLs using multiple antivirus engines and threat intelligence providers to detect malware, report results, and aggregate community/vulnerability data.
+
+6. Lucidchart:
+A cloud-based diagramming and visual collaboration tool for creating flowcharts, architecture diagrams, org charts, and more. It supports real-time collaboration and various export formats.

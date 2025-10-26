@@ -1,0 +1,28 @@
+->FIELDS:
+1. information risk management, which is the process of identifying, assessing, and minimizing potential threats to information assets. It’s used to develop strategies for securing cloud assets. 
+Information risk management can also be used to plan an organization’s security budget.
+
+2. CLOUD SECURITY POSTURE MANAGEMENT:
+process of monitoring and configuring cloud assets for security and compliance with best practices, regulations, and organization policy.
+Analysts use cloud security posture management tools like Google Cloud Security Command Center as centralized places to find and analyze information about what’s going on in the cloud environment.
+
+3. Threat intelligence:
+
+A third field cloud security analysts can work in is threat intelligence.
+Threat intelligence includes the collection, analysis, and evaluation of cyberthreat information.
+
+->SECURITY POSTURE MANAGEMENT TASKS:
+1. Use tooling to monitor for misconfigurations and vulnerabilities
+2. Improve organisation's security posture
+3. communicate with non technical audience
+
+->SECURITY POSTURE:
+Security posture is an organization’s ability to manage its defense of critical assets and data and react to change. So, security posture management strategies often include regularly reviewing and updating security policies, ensuring that identity and access management services, or IAM, policies are configured correctly, and implementing and testing security controls.
+
+
+->RESPONSIBILITIES:
+1. Use tools to check for vulnerabilities present in the cloud.
+2. Analyse threat detection and organise compliance reports.
+3. Communicating with the organisation.
+4. Monitor infrastructure.
+5. Respond to security incidents.

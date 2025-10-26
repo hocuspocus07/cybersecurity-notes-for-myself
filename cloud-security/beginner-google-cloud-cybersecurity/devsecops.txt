@@ -1,0 +1,38 @@
+
+DevSecOps is a culture that consists of guidelines, best practices, and tools that development, operation, and security teams use to collaborate.
+DevSecOps has become an integral part of the software development lifecycle.
+
+->SOFTWARE DEVELOPMENT LIFECYCLE:
+
+The software development lifecycle is a process for developing, testing, and monitoring software.
+In my words:
+Planning: kya banana hai, kyun banana hai
+
+Design: kaise banana hai
+
+Development: code likh lo bhidu
+
+Testing: dekh lo kuch uda toh nahi
+
+Deployment: production me daal do
+
+Maintenance: bugs, updates, user ke rona-dhona handle karo
+
+ 1.
+ Plan
+ 2. Code
+ 3. Build
+4. Test
+ 5. Release
+ 6. Deploy
+ 7. Operate
+
+->SHIFT LEFT:
+DevSecOps culture also reinforces the security concept of shifting left.
+To shift left means security checks and practices are implemented at the beginning and throughout each phase of the software development lifecycle.
+
+Shifting left with security involves a variety of shifting left practices that might include:
+code analysis, 
+change and compliance management,
+ threat modeling,
+  and security training.

@@ -1,0 +1,35 @@
+The software supply chain includes the people, processes, and tools that play a part in software development.
+This includes code scripts, people and organizations, third-party dependencies, processes, and more.
+
+->SECURITY HARDENING:
+Security hardening is the process of strengthening a system to reduce its vulnerabilities and attack surface.
+
+->SBOM:
+Another method is to use a software bill of materials, or SBOM, to address security measures and compliance.
+An SBOM is a machine-readable list of each piece of software and its components involved in the supply chain.
+
+->SLSA:
+Supply-chain Levels for Software Artifacts.
+SLSA improves security by outlining standards and controls that enhance the integrity of artifacts.
+
+SLSA’s framework revolves around three trust boundaries: build integrity, source integrity, and dependencies.
+Level 0: Bas source code copy hua, build process unchecked — matlab khula khazana.
+
+Level 1: Build process reproducible hai — matlab agar tu code dobara build karega, same output milega.
+
+Level 2: Build process fully defined aur auditable — matlab har step check ho sakta.
+
+Level 3: Provenance aur integrity check complete — matlab tu sure ho ke ye build clean hai, tampered nahi.
+
+SLSA recommends incorporating technical controls such as version control, vulnerability scanning, build verification, deployment policies, and artifact management.
+
+-> SoftwareDeliveryShield:
+
+ SDSis afuly managedsolution that strengthens so ware supply chain security in each stage
+ of the so waredevelopmentlifecycle.
+ So wareDelivery Shield is a combination of:
+ ● Google’sbestpractices for securing so ware development
+ ● DashboardsintheGoogleCloudconsolethatalert to the security health of resources
+ ● Acomparisonofyoursupplychainsecurity to SLSA’s guidelines
+ The combination of these o erings enables customers to quickly assess security concerns
+ that a ecttheir applications

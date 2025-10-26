@@ -1,0 +1,36 @@
+
+Infrastructure as code, or IaC, is the practice of provisioning and managing infrastructure using reusable scripts.
+Key points:
+
+Automation: Manual kaam khatam, script se sab ready.
+
+Consistency: Har bar same environment, koi human error nahi.
+
+Version Control: Code me changes track hota, rollback possible.
+
+Speed: Infrastructure minutes me ready, pehle dinon lagte.
+
+->POLICY AS CODE:(PaC)
+
+Policy as code, also known as PaC, is the use of code to define, manage, and automate policies, rules, and conditions using a high-level programming language. PaC enables developers to provision and manage their policies to meet organizational requirements.
+benefits:
+1. track code updates
+2. roll back revisions
+3. improve visibility
+4. increase efficiency
+5. facilitate collaboration
+
+
+->TERRAFORM AS AN IAC TOOL:
+Terraform ekdum magic wand for cloud hai, Infrastructure as Code (IaC) style me. Matlab, manually console me click karne ka scene khatam, ab bas code likho aur cloud setup ho jaaye.
+
+->IAC IN GITOPS FRAMEWORK:
+GitOps is a framework that applies version control, collaboration, compliance, and CI/CD best practices to automate cloud infrastructure. The first component of GitOps is that it uses infrastructure as code, or IaC, as a core process for automation.
+GitOps uses continuous integration as a method for submitting pull requests.
+Continuous delivery integrates security and IaC requirements throughout the software development process.
+Supports shifting left.
+
+->GITOPS BENEFITS:
+1. Improves efficiency and visibility.
+2. Make it easier to manage services.
+

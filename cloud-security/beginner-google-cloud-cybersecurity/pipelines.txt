@@ -1,0 +1,30 @@
+->WATERFALL METHOD:
+In 1970, Dr. Winston Royce coined the term "waterfall methodology" as a way to develop software in a step-by-step order.
+With this methodology, developers move from one step to the next.
+Returning to previous steps can cause the developer to lose their progress or require them to repeat their previous work.
+A development team completes the waterfall workflow in six main steps.
+
+The first step is to establish project requirements.
+The second step is to design the software.
+In the third step, the team develops the software.
+The fourth step is to test the code.
+The fifth step is to release the project.
+Lastly, the sixth step is to conduct maintenance for any issues that arise post-deployment.
+
+->PIPELINES:
+software pipelines include automated integration and testing, code validation, and reporting measures.
+
+->CI/CD PIPELINES:
+CI/CD is a process DevSecOps teams use to create software and automate updates. The first phase, CI, is where developers continuously create and update code that’s uploaded into a shared repository. uploading the code automatically triggers a validation process, builds an image, and then stores the code in a repository.
+
+The second phase, CD, actually has two meanings, the first being continuous delivery.
+Continuous delivery standardizes the continuous release of software builds to a staging or testing environment.
+Changes to code are automatically tested for bugs and merged into a repository.
+Like with continuous integration, automated tests validate any code or build updates.
+The second meaning of CD is continuous deployment.
+Unlike continuous delivery, continuous deployment automatically deploys builds into a production environment in real time.
+Manual approval is not required for the updated software to be pushed out to end users.
+Continuous deployment can be thought of as an extension of continuous delivery.
+
+The CI/CD pipeline has four key stages: source, build, test, and deploy.
+ service account is a non-human identity that is typically granted to virtual machines, applications, and services.

@@ -1,0 +1,47 @@
+ Artifact: A digital object, like a le or image, that is used in the so ware development lifecycle
+
+ Commit:Thespecific change made to a file
+
+ Configuration drift :Whenaresource’scongurationhasaltered from its original or expected
+ state
+ 
+ Continuous delivery: Continuous release of so ware builds to a testing environment
+ 
+ Continuous deployment: Deploys builds into a production environment in real time
+ 
+ Continuous integration: The phase where developers continuously create and update code
+ that’s uploaded into a shared repository
+ 
+ Continuous integration and continuous delivery (CI/CD): A process DevSecOps teams use
+ to create so wareandautomateupdates
+ 
+ DevSecOps:Aculture that consists of guidelines, best practices, and tools that development,
+ operation, and security teams use to colaborate
+ 
+ GitOps: Aframework that applies version control, colaboration, compliance, and CI/CD best
+ practices to automate cloud infrastructure
+ 
+ Infrastructure as code (IaC): The practice of automating and managing infrastructure using
+ reusable scripts
+ 
+ Policy as code (PaC): The use of codetode ne,manage,andautomatepolicies, rules, and
+ conditions using a high-level programming language
+ 
+ Provenance: A description of the processes and tools used to build an artifact
+ 
+ Security hardening: The process of strengthening a system to reduce its vulnerabilities and
+ a acksurface
+ 
+ Shift left :Securitychecksandpractices are implemented at the beginning and throughout
+ each phase of the so waredevelopmentlifecycle
+ 
+ So warebillofmaterials (SBOM): Amachine-readable list of each piece of so ware, and its
+ components involved in the supply chain
+
+So waredevelopmentlifecycle: Aprocess for developing, testing, and monitoring so ware
+
+ So warepipeline: Aprocessthat uses automation and tools to facilitate movement through
+ each phase of the so waredevelopmentlifecycle
+
+ So waresupplychain:Includes the people, processes, and tools that play a part in so ware
+ development

